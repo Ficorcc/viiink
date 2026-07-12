@@ -97,8 +97,8 @@ cp .dev.vars.example .dev.vars
 ADMIN_PASSWORD=你的管理密码         # 登录后台用，至少 8 位
 GITHUB_TOKEN=ghp_xxx               # 上一步生成的
 GITHUB_OWNER=Ficorcc               # 主站仓库 owner
-GITHUB_REPO=vii.ink                # 主站仓库名
-GITHUB_WORKFLOW=deploy.yml         # .github/workflows/ 下的部署文件
+GITHUB_REPO=Ficor.net              # 主站仓库名
+GITHUB_WORKFLOW=ci.yml             # .github/workflows/ 下的部署文件（需启用 workflow_dispatch）
 WALINE_TOKEN=                      # Waline 管理 token（如启用评论管理）
 ```
 

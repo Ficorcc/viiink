@@ -175,8 +175,8 @@ INSERT INTO config (key, value, updated_at, revision) VALUES (
   'deploy',
   json('{
     "owner": "Ficorcc",
-    "repo": "vii.ink",
-    "workflow": "deploy.yml",
+    "repo": "Ficor.net",
+    "workflow": "ci.yml",
     "ref": "main"
   }'),
   datetime('now'),

@@ -17,8 +17,8 @@ GITHUB_TOKEN=ghp_your_github_token_here
 WALINE_TOKEN=
 
 # 主站仓库信息（用于触发部署）
-# 格式：用户名/仓库名，例如 Ficorcc/vii.ink
+# 格式：用户名/仓库名，例如 Ficorcc/Ficor.net
 GITHUB_OWNER=Ficorcc
-GITHUB_REPO=vii.ink
-# 要触发的 workflow 文件名（.github/workflows/ 下的文件）
-GITHUB_WORKFLOW=deploy.yml
+GITHUB_REPO=Ficor.net
+# 要触发的 workflow 文件名（.github/workflows/ 下的文件，需启用 workflow_dispatch）
+GITHUB_WORKFLOW=ci.yml
