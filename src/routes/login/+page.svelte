@@ -150,8 +150,6 @@
     font-size: 13px;
     border-left: 3px solid var(--danger);
   }
-    gap: 16px;
-  }
 
   .login-card__footer {
     text-align: center;
